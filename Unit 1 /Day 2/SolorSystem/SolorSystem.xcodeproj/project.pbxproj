@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7340EF3C1E412CD000E2584E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340EF3B1E412CD000E2584E /* AppDelegate.swift */; };
+		7340EF411E412CD000E2584E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7340EF3F1E412CD000E2584E /* Main.storyboard */; };
+		7340EF431E412CD000E2584E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7340EF421E412CD000E2584E /* Assets.xcassets */; };
+		7340EF461E412CD100E2584E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7340EF441E412CD100E2584E /* LaunchScreen.storyboard */; };
+		7340EF4F1E412DD900E2584E /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340EF4D1E412DD900E2584E /* Planet.swift */; };
+		7340EF501E412DD900E2584E /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340EF4E1E412DD900E2584E /* PlanetController.swift */; };
+		7340EF521E412F0D00E2584E /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340EF511E412F0D00E2584E /* PlanetTableViewController.swift */; };
+		7340EF561E413D1A00E2584E /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340EF551E413D1A00E2584E /* PlanetDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7340EF381E412CD000E2584E /* SolorSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolorSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7340EF3B1E412CD000E2584E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7340EF401E412CD000E2584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7340EF421E412CD000E2584E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7340EF451E412CD100E2584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7340EF471E412CD100E2584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7340EF4D1E412DD900E2584E /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Planet.swift; path = ../../../../../Downloads/SolarSystemFiles/Planet.swift; sourceTree = "<group>"; };
+		7340EF4E1E412DD900E2584E /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanetController.swift; path = ../../../../../Downloads/SolarSystemFiles/PlanetController.swift; sourceTree = "<group>"; };
+		7340EF511E412F0D00E2584E /* PlanetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewController.swift; sourceTree = "<group>"; };
+		7340EF551E413D1A00E2584E /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7340EF351E412CD000E2584E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7340EF2F1E412CD000E2584E = {
+			isa = PBXGroup;
+			children = (
+				7340EF3F1E412CD000E2584E /* Main.storyboard */,
+				7340EF3A1E412CD000E2584E /* SolorSystem */,
+				7340EF391E412CD000E2584E /* Products */,
+				7340EF571E41611500E2584E /* Stuff */,
+			);
+			sourceTree = "<group>";
+		};
+		7340EF391E412CD000E2584E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7340EF381E412CD000E2584E /* SolorSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7340EF3A1E412CD000E2584E /* SolorSystem */ = {
+			isa = PBXGroup;
+			children = (
+				7340EF4D1E412DD900E2584E /* Planet.swift */,
+				7340EF4E1E412DD900E2584E /* PlanetController.swift */,
+				7340EF511E412F0D00E2584E /* PlanetTableViewController.swift */,
+				7340EF551E413D1A00E2584E /* PlanetDetailViewController.swift */,
+			);
+			path = SolorSystem;
+			sourceTree = "<group>";
+		};
+		7340EF571E41611500E2584E /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				7340EF471E412CD100E2584E /* Info.plist */,
+				7340EF441E412CD100E2584E /* LaunchScreen.storyboard */,
+				7340EF3B1E412CD000E2584E /* AppDelegate.swift */,
+				7340EF421E412CD000E2584E /* Assets.xcassets */,
+			);
+			name = Stuff;
+			path = SolorSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7340EF371E412CD000E2584E /* SolorSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7340EF4A1E412CD100E2584E /* Build configuration list for PBXNativeTarget "SolorSystem" */;
+			buildPhases = (
+				7340EF341E412CD000E2584E /* Sources */,
+				7340EF351E412CD000E2584E /* Frameworks */,
+				7340EF361E412CD000E2584E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolorSystem;
+			productName = SolorSystem;
+			productReference = 7340EF381E412CD000E2584E /* SolorSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7340EF301E412CD000E2584E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Josh McDonald";
+				TargetAttributes = {
+					7340EF371E412CD000E2584E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7340EF331E412CD000E2584E /* Build configuration list for PBXProject "SolorSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7340EF2F1E412CD000E2584E;
+			productRefGroup = 7340EF391E412CD000E2584E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7340EF371E412CD000E2584E /* SolorSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7340EF361E412CD000E2584E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7340EF461E412CD100E2584E /* LaunchScreen.storyboard in Resources */,
+				7340EF431E412CD000E2584E /* Assets.xcassets in Resources */,
+				7340EF411E412CD000E2584E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7340EF341E412CD000E2584E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7340EF501E412DD900E2584E /* PlanetController.swift in Sources */,
+				7340EF521E412F0D00E2584E /* PlanetTableViewController.swift in Sources */,
+				7340EF3C1E412CD000E2584E /* AppDelegate.swift in Sources */,
+				7340EF561E413D1A00E2584E /* PlanetDetailViewController.swift in Sources */,
+				7340EF4F1E412DD900E2584E /* Planet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7340EF3F1E412CD000E2584E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7340EF401E412CD000E2584E /* Base */,
+			);
+			name = Main.storyboard;
+			path = SolorSystem;
+			sourceTree = "<group>";
+		};
+		7340EF441E412CD100E2584E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7340EF451E412CD100E2584E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7340EF481E412CD100E2584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7340EF491E412CD100E2584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7340EF4B1E412CD100E2584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolorSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SolorSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7340EF4C1E412CD100E2584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SolorSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SolorSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7340EF331E412CD000E2584E /* Build configuration list for PBXProject "SolorSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7340EF481E412CD100E2584E /* Debug */,
+				7340EF491E412CD100E2584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7340EF4A1E412CD100E2584E /* Build configuration list for PBXNativeTarget "SolorSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7340EF4B1E412CD100E2584E /* Debug */,
+				7340EF4C1E412CD100E2584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7340EF301E412CD000E2584E /* Project object */;
+}
