@@ -9,6 +9,41 @@
 import UIKit
 
 class PlacesDetailViewController: UIViewController {
+    
+    @IBAction func savedTappedButton(_ sender: Any) {
+        if let placeName = placeTextField.text, let reasonToGo = placesTextField.text {
+            
+            PlaceController.sharedController.addPlaceWith(name: placeName, reasonToGo: reasonToGo)
+            clearTextField()
+            
+            _ = self.navigationController?.popViewController(animated: true)
+            
+    }
+    }
+    
+    func updateWith() {
+    super.viewDidLoad()
+    if let place = place {
+        self.placesTextField.text = place.name
+        self.placeTextField.text = place.reasonToGo 
+    }
+    }
+    
+    func clearTextField() {
+        placesTextField.text = ""
+        placeTextField.text = ""
+    }
+    
+    @IBAction func clearButtonTapped(_ sender: Any) {
+        clearTextField()
+        
+    }
+    
+    
+    @IBOutlet weak var placeTextField: UITextField!
+    @IBOutlet weak var placesTextField: UITextView!
+    
+    var place: Place?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,10 +51,6 @@ class PlacesDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
     /*
