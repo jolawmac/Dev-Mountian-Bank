@@ -71,8 +71,9 @@ class NameListTableViewController: UITableViewController {
             
             let name = names[indexPath.row]
             NameController.sharedController.deleteNames(name: name)
-            
+            self.names = NameController.sharedController.names
             tableView.deleteRows(at: [indexPath], with: .fade)
+            tableView.reloadData()
         }
         
     }
